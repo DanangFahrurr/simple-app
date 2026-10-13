@@ -21,6 +21,6 @@ pipeline {
       }
     }
   }
-}
   post { always { echo 'Selesai build' } }
 }
+
