@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE_NAME = 'youruser/simple-app' // Ganti youruser dengan username Docker Hub Anda
+    IMAGE_NAME = 'danangfahrurr/simple-app' 
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
   stages {
